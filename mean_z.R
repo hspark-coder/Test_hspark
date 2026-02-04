@@ -4,5 +4,5 @@ mean(x)
 y<-1:10
 mean(y)
 
-z<-1:10
-mean(z)
+t<-1:10
+mean(t)
