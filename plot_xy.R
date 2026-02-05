@@ -6,4 +6,5 @@ plot(x1,y1)
 library(ggplot2)
 
 df<-data.frame(x1, y1)
-ggplot(df, aes(x=x1, y=y1))+geom_point()
+ggplot(df, aes(x=x1, y=y1))+geom_point()+
+  geom_hline(yintercept=10, linetype=2, color=2)
