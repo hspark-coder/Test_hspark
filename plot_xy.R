@@ -7,4 +7,4 @@ library(ggplot2)
 
 df<-data.frame(x1, y1)
 ggplot(df, aes(x=x1, y=y1))+geom_point()+
-  geom_hline(yintercept=10, linetype=2, color=2)+geom_vline(xintercept=5, linetype=1, color=1)
+  geom_hline(yintercept=10, linetype=2, color=2)
